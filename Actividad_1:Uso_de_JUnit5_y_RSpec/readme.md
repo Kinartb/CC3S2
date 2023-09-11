@@ -12,10 +12,10 @@ Tanto en Java como en Ruby se puede usar asertaciones para verificar que el cód
 
 # Diferencias
 
-* **Sintaxis**
+* **Sintaxis:**
   
  Java utiliza un estilo de programación más orientado a objetos, mientras que Ruby utiliza un estilo más orientado a lenguajes de script y utiliza bloques y métodos de descripción.
 
- * **Legibilidad**
+ * **Legibilidad:**
 
 Ruby es un lenguaje de fácil comprensión por lo que, del mismo modo, se puede tener una fácil compresión del manejo de las herramientas de RSpec ya que éstas son tan extensas como el usurio editor se lo permite, es decir, como RSpec es altamente extensible y permite a los desarrolladores personalizar el comportamiento de las pruebas. Esto brinda una gran flexibilidad para adaptar RSpec a las necesidades específicas de un proyecto.
