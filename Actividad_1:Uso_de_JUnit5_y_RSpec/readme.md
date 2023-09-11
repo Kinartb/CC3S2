@@ -2,4 +2,6 @@ Para realizar las comparaciones entre ambas herramientas vamos a analizar las si
 
 # Similitudes
 
+
+
 # Diferencias
