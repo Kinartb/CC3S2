@@ -30,12 +30,14 @@ correctamente se debe a que está vinculada a una dirección web externa que no 
 
 **3. Simulamos un servidor Web usando Netcat**
 
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/escucha.png)
+
 ***Pregunta: Suponiendo que estás ejecutando curl desde otro shell ¿qué URL tendrás que pasarle
 a curl para intentar acceder a tu servidor falso y por qué?***
 
 La URL que tendrías que pasarle a curl para intentar acceder al servidor falso es
-http://192.168.18.18:8081. Esto se debe a que en la solicitud GET enviada al servidor falso, la línea
-Host: 192.168.18.18:8081 indica la dirección IP (192.168.18.18) y el puerto (8081) al cual debes
+http://0.0.0.0:8081. Esto se debe a que en la solicitud GET enviada al servidor falso, la línea
+Host: 0.0.0.0:8081 indica la dirección IP (0.0.0.0) y el puerto (8081) al cual debes
 apuntar con curl.
 
 ***Pregunta: La primera línea de la solicitud identifica qué URL desea recuperar el cliente. ¿Por qué
