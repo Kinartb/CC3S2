@@ -6,7 +6,38 @@ Para el documente llamado **calculadora** lo que nos quieren dar a entender es e
 
 Se tiene las ejecuciones de las pruebas:
 
+Prueba 1
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba1.png)
+
+Prueba 2
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba2.png)
+
+Prueba 3
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba3.png)
+
+Prueba 4
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba4.png)
+
+Prueba 5
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba5.png)
+
+Prueba 6
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba6.png)
+
+Prueba 7
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba7.png)
+
+Prueba 8
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba8.png)
+
+Aqui se muestra la ejecucion de pruebas de otra forma:
+
+![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba9.png)
+
+Como conclusion se tiene que al realizar una nueva funcionalidad a un prograama primero hay que ejecutar dicha prueba, para posteriormente agregar la nueva funcionalidad. Es decir, se visualiza la realizacion de un proceso TDD
+
+
+
 
 
 
