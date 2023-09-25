@@ -164,10 +164,25 @@ HTML).
 -  PATCH: Para modificar parcialmente una entidad en el servidor.
 -  DELETE: Para eliminar una entidad en el servidor.
 
+### HTTP sin estados y cookies
+***Pregunta: Prueba las dos primeras operaciones GET anteriores. El cuerpo de la respuesta para la primera debe ser "Logged in: false" y para la segunda "Login cookie set". ¿Cuáles son las diferencias en los encabezados de respuesta que indican que la segunda operación está configurando una cookie? (Sugerencia: usa curl -v, que mostrará tanto los encabezados de solicitud como los encabezados y el cuerpo de la respuesta, junto con otra información de depuración. curl --help imprimirá una ayuda voluminosa para usar curl y man curl mostrará la página del manual de Unix para cURL en la mayoría de los sistemas.)***
 
+La diferencia clave es el encabezado Set-Cookie en la respuesta de la segunda operación (GET /login). Este encabezado indica la configuración de una cookie, proporcionando detalles como nombre, valor y configuraciones adicionales.
 
+***Pregunta: Bien, ahora supuestamente "logged in" porque el servidor configuró una cookie que indica esto. Sin embargo, si intentaa GET / nuevamente, seguirá diciendo "Logged: false". ¿Qué está sucediendo? (Sugerencia: usa curl -v y observa los encabezados de solicitud del cliente).***
 
+El cliente no está enviando la cookie al servidor en la solicitud GET a `/`, por lo tanto, el servidor no reconoce la sesión iniciada y muestra "Logged in: false".
 
+***Pregunta: Al observar el encabezado Set-Cookie o el contenido del archivo cookies.txt, parece que podría haber creado fácilmente esta cookie y simplemente obligar al servidor a creer que ha iniciado sesión. En la práctica, ¿cómo evitan los servidores esta inseguridad?***
 
+Los servidores utilizan técnicas de seguridad como cifrado y verificación para evitar manipulaciones no autorizadas de cookies y asegurar la autenticidad de la sesión del usuario.
 
+Conclusiones:
 
+- Las cookies son cruciales para que los servidores realicen un seguimiento del estado de
+sesión y la interacción de un cliente.
+- HTTP es un protocolo sin estado, pero las cookies permiten crear una noción de "estado
+de sesión".
+- Los servidores confían en que el cliente incluya y actualice correctamente las cookies para mantener la sesión.
+- Deshabilitar cookies puede impedir el funcionamiento adecuado de sitios que requieren
+inicio de sesión o interacciones secuenciales.
