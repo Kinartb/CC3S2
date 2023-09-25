@@ -20,3 +20,49 @@ dirección local de archivo y la imagen no se carga correctamente.
 La dirección de la página se debe al contexto en el que se interpreta la URL, ya sea como una
 dirección web en línea o como una dirección local de archivo. La imagen no cargada
 correctamente se debe a que está vinculada a una dirección web externa que no está accesible desde tu sistema de archivos locales
+
+3. Simulamos un servidor Web usando Netcat
+
+Pregunta: _Suponiendo que estás ejecutando curl desde otro shell ¿qué URL tendrás que pasarle
+a curl para intentar acceder a tu servidor falso y por qué?_
+
+La URL que tendrías que pasarle a curl para intentar acceder al servidor falso es
+http://192.168.18.18:8081. Esto se debe a que en la solicitud GET enviada al servidor falso, la línea
+Host: 192.168.18.18:8081 indica la dirección IP (192.168.18.18) y el puerto (8081) al cual debes
+apuntar con curl.
+
+Pregunta: _La primera línea de la solicitud identifica qué URL desea recuperar el cliente. ¿Por qué
+no ves http://localhost:8081 en ninguna parte de esa línea?_
+
+
+La primera línea de la solicitud no contiene "http://localhost:8081" porque el cliente está
+especificando la ruta relativa ("/") en lugar de una URL completa. El cliente y el servidor ya
+establecieron la conexión a través de la dirección IP y puerto.
+
+4. Vemos los encabezados de respuesta del servidor
+
+Pregunta: _Según los encabezados del servidor, ¿cuál es el código de respuesta HTTP del servidor
+que indica el estado de la solicitud del cliente y qué versión del protocolo HTTP utilizó el servidor
+para responder al cliente?_
+
+Según los encabezados del servidor:
+
+• El código de respuesta HTTP del servidor es 200 OK, indicando que la solicitud del cliente
+fue exitosa.
+
+• El servidor utilizó la versión HTTP/1.1 del protocolo HTTP para responder al cliente.
+
+Pregunta: _Cualquier solicitud web determinada puede devolver una página HTML, una imagen u
+otros tipos de entidades. ¿Hay algo en los encabezados que crea que le dice al cliente cómo
+interpretar el resultado?_
+
+Sí, el encabezado "Content-Type" indica al cliente cómo interpretar el tipo de contenido que está
+recibiendo. En este caso, el encabezado "Content-Type" es "text/html;charset=utf-8", indicando
+que el contenido es HTML y debe ser interpretado como tal por el cliente.
+
+
+
+
+
+
+
