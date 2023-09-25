@@ -93,7 +93,7 @@ Códigos de Respuesta HTTP:
 - 2xx (Éxito)
   - 200 OK: La solicitud fue exitosa.
   - 201 Created: Se ha creado un nuevo recurso como resultado de la solicitud.
--  3xx (Redirecciones)
+- 3xx (Redirecciones)
   - 301 Moved Permanently: La página solicitada se ha movido permanentemente a
 una nueva URL.
   - 302 Found (o 307 Temporary Redirect): La página solicitada se ha movido
