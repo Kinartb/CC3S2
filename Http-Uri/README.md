@@ -93,7 +93,7 @@ que el contenido es HTML y debe ser interpretado como tal por el cliente.
 ### ¿Qué sucede cuando falla un HTTP request?
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba-arhchivo.png)
-![]()
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/emailcontra.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba2.png)
 
 
@@ -181,8 +181,13 @@ HTML).
 -  PATCH: Para modificar parcialmente una entidad en el servidor.
 -  DELETE: Para eliminar una entidad en el servidor.
 
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/prueba2modificada.png)
+
 ### HTTP sin estados y cookies
 ***Pregunta: Prueba las dos primeras operaciones GET anteriores. El cuerpo de la respuesta para la primera debe ser "Logged in: false" y para la segunda "Login cookie set". ¿Cuáles son las diferencias en los encabezados de respuesta que indican que la segunda operación está configurando una cookie? (Sugerencia: usa curl -v, que mostrará tanto los encabezados de solicitud como los encabezados y el cuerpo de la respuesta, junto con otra información de depuración. curl --help imprimirá una ayuda voluminosa para usar curl y man curl mostrará la página del manual de Unix para cURL en la mayoría de los sistemas.)***
+
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/curlponer1.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/curlponer2.png)
 
 La diferencia clave es el encabezado Set-Cookie en la respuesta de la segunda operación (GET /login). Este encabezado indica la configuración de una cookie, proporcionando detalles como nombre, valor y configuraciones adicionales.
 
@@ -193,7 +198,9 @@ El cliente no está enviando la cookie al servidor en la solicitud GET a `/`, po
 ***Pregunta: Al observar el encabezado Set-Cookie o el contenido del archivo cookies.txt, parece que podría haber creado fácilmente esta cookie y simplemente obligar al servidor a creer que ha iniciado sesión. En la práctica, ¿cómo evitan los servidores esta inseguridad?***
 
 Los servidores utilizan técnicas de seguridad como cifrado y verificación para evitar manipulaciones no autorizadas de cookies y asegurar la autenticidad de la sesión del usuario.
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/curl2.png)
 
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/catcoookies.png)
 Conclusiones:
 
 - Las cookies son cruciales para que los servidores realicen un seguimiento del estado de
