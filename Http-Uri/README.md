@@ -4,6 +4,8 @@ vizualizar el Http_Uri.pdf
 # Introducción a HTTP y URI
 Comenzamos visitando el generador de palabras aleatorias en tu navegador favorito para obtener una vista de usuario de lo que hay en la página principal.
 
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/paginahtml.png)
+
 ## Comprendiendo Request y Response
 **1. Realizamos un HTTP GET a un sitio, usando CUR**
 
