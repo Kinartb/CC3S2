@@ -19,4 +19,4 @@ dirección local de archivo y la imagen no se carga correctamente.
 
 La dirección de la página se debe al contexto en el que se interpreta la URL, ya sea como una
 dirección web en línea o como una dirección local de archivo. La imagen no cargada
-correctamente se debe a que está vinculada a una dirección web externa que no está accesible
+correctamente se debe a que está vinculada a una dirección web externa que no está accesible desde tu sistema de archivos locales
