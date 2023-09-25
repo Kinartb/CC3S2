@@ -1,3 +1,5 @@
+Si bien la estrucutra para utilziar pruebas en Ruby es distinta, siempre se busca realizar la misma funcionalidad en una prueba y se repiten la funcionalidad de algunas estructuras predefinifas en Java, como caracteristca se tiene que cada prueba va junto con el simbolo "test_" que indica que es un test, se puede decir tambien que la forma del output es diferente. Para realizar estas pruebas se utilizo el IDE Rubymine. 
+
 Test 1 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/Rubyprueba1.png)
