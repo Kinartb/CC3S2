@@ -92,10 +92,6 @@ que el contenido es HTML y debe ser interpretado como tal por el cliente.
 
 ### ¿Qué sucede cuando falla un HTTP request?
 
-![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba-arhchivo.png)
-![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/emailcontra.png)
-![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba2.png)
-
 
 ***Pregunta: ¿Cuál sería el código de respuesta del servidor si intentaras buscar una URL
 inexistente en el sitio generador de palabras aleatorias? Prueba esto utilizando el procedimiento
@@ -128,6 +124,12 @@ La principal diferencia es que los códigos de respuesta que comienzan con "4xx"
 del cliente, mientras que los códigos que comienzan con "5xx" indican errores del servidor.
 
 ### ¿Qué es un cuerpo de Request?
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba-arhchivo.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/emailcontra.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba2.png)
+
 
 ***Pregunta: ¿Cómo se presenta al servidor la información que ingresó en el formulario? ¿Qué
 tareas necesitaría realizar un framework SaaS como Sinatra o Rails para presentar esta
