@@ -10,6 +10,7 @@ Comenzamos visitando el generador de palabras aleatorias en tu navegador favorit
 **1. Realizamos un HTTP GET a un sitio, usando CUR**
 
 Ingresamos el comando ``` curl 'http://randomword.saasbook.info' ```
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/a.png)
 
 **2. Guardamos la salida de curl en un archivo y lo visualizamos**
 
