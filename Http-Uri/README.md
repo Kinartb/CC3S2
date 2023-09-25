@@ -5,11 +5,11 @@ vizualizar el Http_Uri.pdf
 Comenzamos visitando el generador de palabras aleatorias en tu navegador favorito para obtener una vista de usuario de lo que hay en la página principal.
 
 ## Comprendiendo Request y Response
-1. Realizamos un HTTP GET a un sitio, usando CURL
+**1. Realizamos un HTTP GET a un sitio, usando CUR**
 
 Ingresamos el comando ``` curl 'http://randomword.saasbook.info' ```
 
-2. Guardamos la salida de curl en un archivo y lo visualizamos
+**2. Guardamos la salida de curl en un archivo y lo visualizamos**
 
 Pregunta: _¿Cuáles son las dos diferencias principales que has visto anteriormente y lo que ves en
 un navegador web 'normal'? ¿Qué explica estas diferencias?_
@@ -21,7 +21,7 @@ La dirección de la página se debe al contexto en el que se interpreta la URL, 
 dirección web en línea o como una dirección local de archivo. La imagen no cargada
 correctamente se debe a que está vinculada a una dirección web externa que no está accesible desde tu sistema de archivos locales
 
-3. Simulamos un servidor Web usando Netcat
+**3. Simulamos un servidor Web usando Netcat**
 
 Pregunta: _Suponiendo que estás ejecutando curl desde otro shell ¿qué URL tendrás que pasarle
 a curl para intentar acceder a tu servidor falso y por qué?_
@@ -39,7 +39,7 @@ La primera línea de la solicitud no contiene "http://localhost:8081" porque el 
 especificando la ruta relativa ("/") en lugar de una URL completa. El cliente y el servidor ya
 establecieron la conexión a través de la dirección IP y puerto.
 
-4. Vemos los encabezados de respuesta del servidor
+**4. Vemos los encabezados de respuesta del servidor**
 
 Pregunta: _Según los encabezados del servidor, ¿cuál es el código de respuesta HTTP del servidor
 que indica el estado de la solicitud del cliente y qué versión del protocolo HTTP utilizó el servidor
