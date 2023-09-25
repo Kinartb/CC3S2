@@ -8,3 +8,5 @@ Comenzamos visitando el generador de palabras aleatorias en tu navegador favorit
 1. Realizamos un HTTP GET a un sitio, usando CURL
 
 Ingresamos el comando ``` curl 'http://randomword.saasbook.info' ```
+
+1. Guardamos la salida de curl en un archivo y lo visualizamos
