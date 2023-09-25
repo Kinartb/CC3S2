@@ -16,6 +16,10 @@ Ingresamos el comando ``` curl 'http://randomword.saasbook.info' ```
 ***Pregunta: ¿Cuáles son las dos diferencias principales que has visto anteriormente y lo que ves en
 un navegador web 'normal'? ¿Qué explica estas diferencias?***
 
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/primeraparte.png)
+
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/respuestahtml.png)
+
 Las dos diferencias principales que se observan son: la dirección de la página ahora muestra una
 dirección local de archivo y la imagen no se carga correctamente.
 
