@@ -106,6 +106,65 @@ entender.
   - 500 Internal Server Error: El servidor ha encontrado una situación no prevista que
 impide cumplir la solicitud.
 
+***Pregunta: ¿Cuál es la principal diferencia entre 4xx y 5xx?***
+La principal diferencia es que los códigos de respuesta que comienzan con "4xx" indican errores
+del cliente, mientras que los códigos que comienzan con "5xx" indican errores del servidor.
+
+### ¿Qué es un cuerpo de Request?
+
+***Pregunta: ¿Cómo se presenta al servidor la información que ingresó en el formulario? ¿Qué
+tareas necesitaría realizar un framework SaaS como Sinatra o Rails para presentar esta
+información en un formato conveniente a una aplicación SaaS escrita, por ejemplo, en Ruby?***
+
+Se representa:
+
+email=pool.salvatierra.a%40uni.pe&password=123456798&secret_info=secret_value&login=Log+I
+n%21
+
+@ -> %40
+
+El framework se encargaría de manejar la solicitud, extraer los datos, decodificarlos, procesarlos y
+luego pasarlos a la aplicación para que realice las acciones específicas de la aplicación basándose
+en esos datos.
+***¿Cuál es el efecto de agregar parámetros URI adicionales como parte de la ruta POST?***
+
+Agregar parámetros en la dirección web (URI) cuando haces un POST no afecta en los datos.
+
+***¿Cuál es el efecto de cambiar las propiedades de nombre de los campos del formulario?***
+
+Cambiar los nombres de los campos en un formulario es como cambiar las etiquetas que
+identifican qué información va en cada espacio del formulario.
+
+***¿Puedes tener más de un botón Submit? Si es así, ¿cómo sabe el servidor en cuál se hizo clic?(Sugerencia: experimenta con los atributos de la etiqueta <submit>).***
+
+Sí, es posible tener más de un botón "Submit" en un formulario HTML. Para lograrlo, puedes usar el atributo name en cada botón "Submit". De esta forma, el servidor puede identificar cuál de los botones fue presionado y actuar en consecuencia.
+```
+<form method="post" action=" http://localhost:8081">
+<button type="submit" name="submit_action"
+value="guardar">Guardar</button>
+<button type="submit" name="submit_action"
+value="eliminar">Eliminar</button>
+</form>
+```
+***¿Se puede enviar el formulario mediante GET en lugar de POST? En caso afirmativo, ¿cuál es la diferencia en cómo el servidor ve esas solicitudes?***
+
+Sí, se puede enviar un formulario tanto mediante GET como mediante POST. La diferencia
+principal radica en cómo se envían los datos:
+
+-GET: Los datos del formulario se envían en la URL.
+
+-POST: Los datos del formulario se envían en el cuerpo de la solicitud
+
+***¿Qué otros verbos HTTP son posibles en la ruta de envío del formulario? ¿Puedes hacer que el navegador web genere una ruta que utilice PUT, PATCH o DELETE?***
+
+-  GET: Para obtener información del servidor.
+-  POST: Para enviar información al servidor (el más comúnmente utilizado en formularios
+HTML).
+-  PUT: Para actualizar una entidad en el servidor.
+-  PATCH: Para modificar parcialmente una entidad en el servidor.
+-  DELETE: Para eliminar una entidad en el servidor.
+
+
 
 
 
