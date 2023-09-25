@@ -34,7 +34,7 @@ Prueba 7: Rojo
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba7.png)
 
-Prueba 8
+Prueba 8: Verde
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba8.png)
 
