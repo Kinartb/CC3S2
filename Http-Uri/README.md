@@ -60,6 +60,52 @@ Sí, el encabezado "Content-Type" indica al cliente cómo interpretar el tipo de
 recibiendo. En este caso, el encabezado "Content-Type" es "text/html;charset=utf-8", indicando
 que el contenido es HTML y debe ser interpretado como tal por el cliente.
 
+***Pregunta: Según los encabezados del servidor, ¿cuál es el código de respuesta HTTP del servidor
+que indica el estado de la solicitud del cliente y qué versión del protocolo HTTP utilizó el servidor
+para responder al cliente?***
+
+Según los encabezados del servidor:
+
+• El código de respuesta HTTP del servidor es 200 OK, indicando que la solicitud del cliente
+fue exitosa.
+
+• El servidor utilizó la versión HTTP/1.1 del protocolo HTTP para responder al cliente.
+
+***Pregunta: Cualquier solicitud web determinada puede devolver una página HTML, una imagen u
+otros tipos de entidades. ¿Hay algo en los encabezados que crea que le dice al cliente cómo
+interpretar el resultado?***
+
+Sí, el encabezado "Content-Type" indica al cliente cómo interpretar el tipo de contenido que está
+recibiendo. En este caso, el encabezado "Content-Type" es "text/html;charset=utf-8", indicando
+que el contenido es HTML y debe ser interpretado como tal por el cliente.
+
+### ¿Qué sucede cuando falla un HTTP request?
+***Pregunta: ¿Cuál sería el código de respuesta del servidor si intentaras buscar una URL
+inexistente en el sitio generador de palabras aleatorias? Prueba esto utilizando el procedimiento
+anterior.***
+
+Probablemente recibiríamos un código de respuesta HTTP 404 Not Found, que indica que la página
+no ha sido encontrada en el servidor.
+
+***Pregunta: ¿Qué otros códigos de error HTTP existen?***
+Códigos de Respuesta HTTP:
+
+- 2xx (Éxito)
+  - 200 OK: La solicitud fue exitosa.
+  - 201 Created: Se ha creado un nuevo recurso como resultado de la solicitud.
+-  3xx (Redirecciones)
+  - 301 Moved Permanently: La página solicitada se ha movido permanentemente a
+una nueva URL.
+  - 302 Found (o 307 Temporary Redirect): La página solicitada se ha movido
+temporalmente a una nueva URL.
+- 4xx (Errores del Cliente)
+  - 400 Bad Request: La solicitud realizada al servidor es incorrecta o no se puede
+entender.
+  - 404 Not Found: El servidor no puede encontrar la página solicitada.
+- 5xx (Errores del Servidor)
+  - 500 Internal Server Error: El servidor ha encontrado una situación no prevista que
+impide cumplir la solicitud.
+
 
 
 
