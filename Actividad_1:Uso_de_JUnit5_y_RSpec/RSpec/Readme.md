@@ -14,23 +14,23 @@ Prueba 2: Verde
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba2.png)
 
-Prueba 3
+Prueba 3: Rojo
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba3.png)
 
-Prueba 4
+Prueba 4: Verde
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba4.png)
 
-Prueba 5
+Prueba 5: Rojo
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba5.png)
 
-Prueba 6
+Prueba 6: Verde
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba6.png)
 
-Prueba 7
+Prueba 7: Rojo
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/Actividad_1%3AUso_de_JUnit5_y_RSpec/Imagenes/prueba7.png)
 
