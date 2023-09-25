@@ -23,7 +23,7 @@ correctamente se debe a que está vinculada a una dirección web externa que no 
 
 **3. Simulamos un servidor Web usando Netcat**
 
-**Pregunta: Suponiendo que estás ejecutando curl desde otro shell ¿qué URL tendrás que pasarle
+***Pregunta: Suponiendo que estás ejecutando curl desde otro shell ¿qué URL tendrás que pasarle
 a curl para intentar acceder a tu servidor falso y por qué?***
 
 La URL que tendrías que pasarle a curl para intentar acceder al servidor falso es
