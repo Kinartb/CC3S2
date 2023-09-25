@@ -50,6 +50,8 @@ establecieron la conexión a través de la dirección IP y puerto.
 
 **4. Vemos los encabezados de respuesta del servidor**
 
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/Respuesdelservidor.png)
+
 ***Pregunta: Según los encabezados del servidor, ¿cuál es el código de respuesta HTTP del servidor
 que indica el estado de la solicitud del cliente y qué versión del protocolo HTTP utilizó el servidor
 para responder al cliente?***
@@ -89,6 +91,12 @@ recibiendo. En este caso, el encabezado "Content-Type" es "text/html;charset=utf
 que el contenido es HTML y debe ser interpretado como tal por el cliente.
 
 ### ¿Qué sucede cuando falla un HTTP request?
+
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba-arhchivo.png)
+![]()
+![](https://github.com/Kinartb/CC3S2/blob/main/Http-Uri/imagenes/pureba2.png)
+
+
 ***Pregunta: ¿Cuál sería el código de respuesta del servidor si intentaras buscar una URL
 inexistente en el sitio generador de palabras aleatorias? Prueba esto utilizando el procedimiento
 anterior.***
