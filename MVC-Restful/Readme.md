@@ -68,11 +68,65 @@ La referencia que contiene las soluciones se encuentra en el archivo `final.rb`.
 Lo primero que vamos a hacer es crear un modelo. A diferencia de Rails, Sinatra no tiene MVC integrado, así que vamos a piratear el nuestro. Usaremos `ActiveRecord` sobre una base de datos SQLite. En esta aplicación, ¿cuál será nuestro modelo y qué operaciones CRUD le aplicaremos?
 
 - index:
+```
+get '/todos' do
+  content_type :json
+  Todo.all.to_json
+end
+```
 - create:
-- read:
-- update:
-- destroy:
+```
+post '/todos' do
+  content_type :json
+  todo = Todo.new(description: params[:description])
+  if todo.save
+    return {msg: "create success"}.to_json
+  else
+    return {msg: todo.errors}.to_json
+  end
+end
 
+```
+- read:
+```
+get '/todos/:id' do
+  content_type :json
+  todo = Todo.find_by_id(params[:id])
+  if todo
+    return {description: todo.description}.to_json
+  else
+    return {msg: "error: specified todo not found"}.to_json
+  end
+end
+
+```
+- update:
+```
+put '/todos/:id' do
+  content_type :json
+  todo = Todo.find(params[:id])
+  if todo.update_attribute(:description, params[:description])
+    return {msg: "update success"}.to_json
+  else
+    return {msg: todo.errors}.to_json
+  end
+end
+
+```
+- destroy:
+```
+delete '/todos/:id' do
+  content_type :json
+  todo = Todo.find(params[:id])
+  if todo
+    todo.destroy
+    return {msg: "delete success"}.to_json
+  else
+    return {msg: "delete failure"}.to_json
+  end
+end
+
+```
 ### Parte 2
 
 A continuación, creemos algunas rutas para que los usuarios puedan interactuar con la aplicación. Aquí hay una URL de ejemplo:
