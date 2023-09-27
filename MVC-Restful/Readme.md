@@ -15,20 +15,49 @@ Presenta esta tarea individual en un repositorio llamado MVC-Restful, CRUD con e
 ```
   cd sinatra-intro/
   bundle install
+```
+Antes de continuar con el proceso de ejecucion se ingresara a la siguiente direccion url
+```
+  http://localhost:4567/todos
+```
+Nos muestra la siguiente ventana
+
+!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part1.png]
+
+Lo que muestra que antes de ejecutar el programa, verificamos que dicha pagina web no esta funcionando.
+
+A continuacion ejecutaremos el programa descargado template.rb el cual posiblemente nos salga con errores, que para solucionaros se deberan descargar las gemas necesarias para su uso.
+
+```
   ruby template.rb # O: bundle exec ruby template.rb
 ```
 
-Luego, ingresa el siguiente enlace en un navegador para ver la página web y verificar si está funcionando.
+Se tiene el siguiente output lo que significa que hemos levantado de manera local una pagina web.
+
+!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part2.png]
+
+ 
+Luego, ingresa el siguiente enlace en un navegador para ver la página web local y verificar si está funcionando.
 
 ```
   http://localhost:4567/todos
 ```
+
+
+!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part3.png]
+
+Lo que vemos aqui es una pagina web local en formato JSON, para saber que es lo que se realizar es necesario visualizar el codigo correspondiente.
+
+
 
 Además, prueba el siguiente comando usando 'curl' para verificar que la aplicación se esté ejecutando localmente y responda. El comando activa una solicitud `GET` para recuperar la lista de "cosas por hacer" y debería recibir una respuesta que se muestra en la salida estándar de la línea de comando.
 
 ```
   curl http://localhost:4567/todos
 ```
+!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part4.png]
+
+Vemos que al utilizar la solicitud `GET` se optiene como respuesta lo que se puede visualizar en la pagina web anterior.
 
 En los siguientes ejercicios, agregaremos más rutas y podrás continuar usando comandos curl con diferentes argumentos para verificar la corrección de sus comportamientos.
 
