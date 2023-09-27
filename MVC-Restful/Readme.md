@@ -22,7 +22,7 @@ Antes de continuar con el proceso de ejecucion se ingresara a la siguiente direc
 ```
 Nos muestra la siguiente ventana
 
-!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part1.png]
+![](https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part1.png)
 
 Lo que muestra que antes de ejecutar el programa, verificamos que dicha pagina web no esta funcionando.
 
@@ -34,7 +34,7 @@ A continuacion ejecutaremos el programa descargado template.rb el cual posibleme
 
 Se tiene el siguiente output lo que significa que hemos levantado de manera local una pagina web.
 
-!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part2.png]
+![](https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part2.png)
 
  
 Luego, ingresa el siguiente enlace en un navegador para ver la página web local y verificar si está funcionando.
@@ -44,7 +44,7 @@ Luego, ingresa el siguiente enlace en un navegador para ver la página web local
 ```
 
 
-!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part3.png]
+![](https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part3.png)
 
 Lo que vemos aqui es una pagina web local en formato JSON, para saber que es lo que se realizar es necesario visualizar el codigo correspondiente.
 
@@ -55,7 +55,7 @@ Además, prueba el siguiente comando usando 'curl' para verificar que la aplicac
 ```
   curl http://localhost:4567/todos
 ```
-!()[https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part4.png]
+![](https://github.com/Kinartb/CC3S2/blob/main/MVC-Restful/imagenes/part4.png)
 
 Vemos que al utilizar la solicitud `GET` se optiene como respuesta lo que se puede visualizar en la pagina web anterior.
 
