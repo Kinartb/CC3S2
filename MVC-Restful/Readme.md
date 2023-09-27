@@ -61,7 +61,7 @@ Vemos que al utilizar la solicitud `GET` se optiene como respuesta lo que se pue
 
 En los siguientes ejercicios, agregaremos más rutas y podrás continuar usando comandos curl con diferentes argumentos para verificar la corrección de sus comportamientos.
 
-Objetivo: Tu tarea es implementar las partes del archivo denominado `TU CODIGO AQUI`. La referencia que contiene las soluciones se encuentra en el archivo `final.rb`.
+La referencia que contiene las soluciones se encuentra en el archivo `final.rb`.
 
 ### Parte 1
 
@@ -71,7 +71,7 @@ Lo primero que vamos a hacer es crear un modelo. A diferencia de Rails, Sinatra 
 - create:
 - read:
 - update:
-- destroy
+- destroy:
 
 ### Parte 2
 
