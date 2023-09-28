@@ -169,7 +169,7 @@ Content-Type: application/json
 
 ```
 
-Lo cual visializamos como factor mas importante el formato codigo de estado HTTP que se encuentra en la primera linea, en este caso 200 que indica que la solicitud se realizo con exito. Existen muchos otros codigos llamados codigos de respuesta REST los cuales nos brindan informacion sobre el estado 
+Lo cual visializamos como factor mas importante el formato codigo de estado HTTP que se encuentra en la primera linea, en este caso 200 que indica que la solicitud se realizo con exito. Existen muchos otros codigos llamados codigos de respuesta REST los cuales se utilizan para comunicar el resultado de una solicitud al cliente que realizó dicha solicitud.
 
 
 
