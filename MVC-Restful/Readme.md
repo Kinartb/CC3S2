@@ -151,7 +151,25 @@ Acciones del tipo index, create, update y detroy con herramientas respectivas de
 
 Dado que HTTP es un protocolo RESTful, cada solicitud debe ir seguida de una respuesta, por lo que debemos devolver una vista o redirigir a cada solicitud. Usaremos JSON para las respuestas, que es similar a lo que hacen muchas API. ¿Hacia dónde debería ir la respuesta?.
 
-Hacia el cliente,
+Hacia el cliente en el cuerpo de la respuesta HTTP, si se diera el formato JSON para las respuesta entonces este tendria una forma parecida a esta. (a modode de ejemplo)
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "message": "Operación exitosa",
+  "data": {
+    "task": {
+      "id": 1,
+      "description": "Realizar tarea",
+      "completed": false
+    }
+  }
+}
+
+```
+
+Lo cual visializamos como factor mas importante el formato codigo de estado HTTP que se encuentra en la primera linea, en este caso 200 que indica que la solicitud se realizo con exito. Existen muchos otros codigos llamados codigos de respuesta REST los cuales nos brindan informacion sobre el estado 
 
 
 
