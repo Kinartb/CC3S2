@@ -67,14 +67,14 @@ La referencia que contiene las soluciones se encuentra en el archivo `final.rb`.
 
 Lo primero que vamos a hacer es crear un modelo. A diferencia de Rails, Sinatra no tiene MVC integrado, así que vamos a piratear el nuestro. Usaremos `ActiveRecord` sobre una base de datos SQLite. En esta aplicación, ¿cuál será nuestro modelo y qué operaciones CRUD le aplicaremos?
 
-- index:
+- index: Leer todas las tareas pendientes (se implementa en la ruta '/todos').
 ```
 get '/todos' do
   content_type :json
   Todo.all.to_json
 end
 ```
-- create:
+- create: Crea una nueva tarea pendiente ( se implementa en la ruta '/todos' y se ejecuta cuando se envía una solicitud POST)
 ```
 post '/todos' do
   content_type :json
@@ -87,7 +87,7 @@ post '/todos' do
 end
 
 ```
-- read:
+- read: Leed una tarea pendeiente especifica ( se implementa en la ruta '/todos/:id' y se ejecuta se proporciona un ID)
 ```
 get '/todos/:id' do
   content_type :json
@@ -100,7 +100,7 @@ get '/todos/:id' do
 end
 
 ```
-- update:
+- update: Actualiza una tarea pendiente (se implementa en la ruta '/todos/:id' y se ejecuta cuando se envía una solicitud PUT)
 ```
 put '/todos/:id' do
   content_type :json
@@ -113,7 +113,7 @@ put '/todos/:id' do
 end
 
 ```
-- destroy:
+- destroy: Elimina una tarea pendienta (se implementa en la ruta '/todos/:id' y se ejecuta cuando se envía una solicitud PUT)
 ```
 delete '/todos/:id' do
   content_type :json
@@ -136,17 +136,19 @@ A continuación, creemos algunas rutas para que los usuarios puedan interactuar 
 ```
 Primero, especifica qué partes de la URL son  componentes según la discusión sobre la forma de una URL. Consulta esta publicación de [IBM](https://www.ibm.com/docs/en/cics-ts/5.1?topic=concepts-components-url) que detalla los componentes de una URL.
 
-- https:// :
-- etsy :
-- 443 :
-- /search :
-- q=test :
-- copy :
+- https:// : Protocolo utilizado (HTTPS).
+- etsy : Nombre del dominio o sitio web.
+- 443 : Puerto utilizado para la conexión segura (HTTPS).
+- /search : Ruta o ruta del recurso en el servidor.
+- q=test : Parametros de consulta (query parameters) que se pasan al servidor.
+- copy : Fragmento (fragment) de la URL.
 
 En Sinatra, el enrutamiento y el controlador están acoplados, lo que facilita la declaración de rutas. Declaramos algunas rutas RESTful para que podamos ver una lista de tareas pendientes, crear una tarea pendiente, editar una tarea pendiente y eliminar una tarea pendiente. ¿Qué acciones RESTful deberíamos utilizar para estos?
+
+Acciones del tipo index, create, update y detroy con herramientas respectivas de elementos get, post, put y delete; realizados con anterioridad en la pregunta anterior.
 
 ### Parte 3
 
 Dado que HTTP es un protocolo RESTful, cada solicitud debe ir seguida de una respuesta, por lo que debemos devolver una vista o redirigir a cada solicitud. Usaremos JSON para las respuestas, que es similar a lo que hacen muchas API. ¿Hacia dónde debería ir la respuesta?.
-Presenta esta tarea individual en un repositorio llamado MVC-Restful, CRUD con evidencia del proceso dado. Puedes trabajar en equipo para resolver los ejercicios.
+
 
