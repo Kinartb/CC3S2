@@ -1,6 +1,19 @@
 # Introduccion
+Para poder realizar el proyecto se tiene que crear la carpeta donde realizaremos nuestro proyecto, para un caso particular dicha carpeta se llamara trabajo. Dentro de la carpeta trabajo vamos a crear nuestro archivo Gemfile, para eso en consola dentro de la ubicacion de la carpeta escribimos en consola lo siguiente.
 
-Despues de llenar nuestro acrchivo vamos a ejecutar el comando.
+```
+nano Gemfile
+```
+En el contenido del archivo escribimos lo siguiente.
+```
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+gem "rspec"
+
+# gem "rails"
+```
+Guardamos y cerramos. En la ubicacion de nuestra carpeta consola, despues de llenar nuestro archivo vamos a ejecutar el comando.
 ```
 bundle init
 ```
