@@ -38,6 +38,24 @@ end
 def sum_to_n?(arr,n)
 end
 ```
-Ejecutamos la prueba y tenemos lo siguiente.
+Ejecutamos la prueba llamada ```prueba1.rb``` y tenemos lo siguiente.
 
+![]()
 
+Vemos que como resultado encontramos una linea
+
+.FF.FFFF.FFF
+
+Esto representa las pruebas que pasaron con exito con un punto (.) y aquellas pruebas que fallaraon con una efe (F), aparece el . ya que en la seccion de pruebas hay tres lineas de codigo que tienen como titulo ```'deberia ser definido'```, la funcionalidad de los argumentos descritos con dicha funcionalidad verifica que si los metodos correspondientes estan definidos, lo cual es correcto ya que se encuentra definidos los metodos ```sum(arr), max_2_sum(arr) y sum_to_n?(arr,n)``` pero sin funcionalidad.
+
+![]()
+
+Aqui muestra algunas recomendaciones o indicaciones de lo que podria estar mal, lo cual es de ayuda al realizar el programa. En la seccion final se encuentra que se realizaron 12 pruebas y 9 de ellas fallaron.
+
+Posteriormente tratamos de agregarle funcionalidad al programa principal llamado ```programaprincipal1.rb``` para poder asi ejecutar las pruebas. Posteriormente ejecutamos la prueba correspondiente donde se muestra lo siguiente.
+
+![]()
+
+Aqui se muestra que todas las pruebas pasaron ya que se verifica que aparecen en ```.``` vemos que tambien nos aparece el numero de pruebas ejecutadas en este caso 12 y que el numero de pruebas falladas es 0.
+
+# Segundo codigo
