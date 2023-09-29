@@ -92,14 +92,14 @@ end
 ```
 y su prueba correspondiente ```prueba3.rb```, la ejecutamos y vemos el resultado.
 
-![](https://github.com/Kinartb/CC3S2/blob/main/HolaRuby/imagenesholarubi/holarubi6.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/HolaRuby/imagenesholarubi/holarubi7.png)
 
 Aparecen ```.``` que indica que pasaron las pruebas y ```F``` que indicaq eu hay pruebas que fallan, las pruebas pasadas hacen referencia a un falso positivo debido a que aun no presentan implementacion. Como los ejemplos anteriores se encuentra la misma prueba de exitencia, se testea si es que realmente existe la clase BookInStock lo cual es correcto pero aun no esta definidio su funcionalidad. A lo largo de la impresion en color rojo vemos que son algunas recomendacion o indicaciones de los cuales porque el codigo podria estar mal, es decir las que no se estan cumpliendo.
 
-![](https://github.com/Kinartb/CC3S2/blob/main/HolaRuby/imagenesholarubi/holarubi7.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/HolaRuby/imagenesholarubi/holarubi8.png)
 Vemos que se realizan 12 pruebas y 8 de ellas presentan fallaron. Pueden que algunas pruebas pasen sin embargo es un falso positivo ya que no se a determinado las funcionalidades de los metodos, por lo que se puede tomar como correcto algo que no se implemento. A continuacion, se implementara la funcionalidad en el programa ```programaprincipal3.rb```. A continuacion ejecutaremos las pruebas.
 
-![](https://github.com/Kinartb/CC3S2/blob/main/HolaRuby/imagenesholarubi/holarubi8.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/HolaRuby/imagenesholarubi/holarubi9.png)
 
 Vemos que nos sales que se han realizado 12 pruebas y no se presentan errores. Por lo que diremos que se ejecutaron las pruebas exitosamente.
 
