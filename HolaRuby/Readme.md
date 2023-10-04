@@ -23,7 +23,7 @@ En trabajo vamos a crear dos carpetas, lib y spec, dentro de lib se va a encontr
 
 Para ejectuar las pruebas, vamos a ejecutar el siguiente comando en la ubicacion de la carpeta de trabajo en consola.
 ```
-bundle exec rspec/nombre_de_prueba_a_elegir,rb
+bundle exec rspec/nombre_de_prueba_a_elegir.rb
 ```
 
 # Primer codigo
