@@ -5,5 +5,6 @@ bundle config --local gemfile ~/ruta
 ```
 ```
 bundle config --local path .bundle
-``
+```
+
 Para poder ejecutar ``` bundle init ``` y ``` bundle install ``` en el directorio actual
