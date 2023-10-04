@@ -1,3 +1,5 @@
+# Algunas notaciones importantes
+
 Para la utilizacion de Ruby y Gemfile seran encesarios algunos comandos
 
 ```
