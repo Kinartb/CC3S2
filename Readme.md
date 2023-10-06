@@ -8,7 +8,10 @@ bundle config --local gemfile ~/ruta
 ```
 bundle config --local path .bundle
 ```
+```
+bundle install --path vendor/bundle
 
+```
 Para poder ejecutar ``` bundle init ``` para iniciar el archivo Gemfile y luego de poner los requisitos ``` bundle install ``` en el directorio actual
 
 ### Para ejecutar pruebas
