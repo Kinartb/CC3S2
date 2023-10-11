@@ -6,14 +6,32 @@ Vemos que nos aparecen trece ```*``` de color amarillento esto es porque en el a
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord2.png)
 
-Tambien podemos visualizar aquellas pruebas que estan en espera indexadas con un nombre referente y al final del output nos muestra que se encuentran realizadas 13 pruebas y que 13 de ellas se encuentran en un estado de espera. Este estado pendiente o de espera se debe a que en las instrucciones del codigo se realizo la ejecucion de ```xspeciy``` esta instruccion quiere decir que dichas pruebas se ejecutaran pero que el entorno sobre el cual se vana realizar dichas pruebas aun no han sido desarrolladas por completo.
+Tambien podemos visualizar aquellas pruebas que estan en espera indexadas con un nombre referente y al final del output nos muestra que se encuentran realizadas 13 pruebas y que 13 de ellas se encuentran en un estado de espera. Este estado pendiente o de espera se debe a que en las instrucciones del codigo se realizo la ejecucion de ```xspecify``` esta instruccion quiere decir que dichas pruebas se ejecutaran pero que el entorno sobre el cual se vana realizar dichas pruebas aun no han sido desarrolladas por completo.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord3.png)
 
-Para confirmar lo anterior vamos a quitar todos los ```xspeciy``` y los vamos a reemplazar por ```speciy``` y posteriormente ejecutaremos el comando ```spec/activerecord_practica_spec.rb```  y veremos que es lo que sucede.
+Para confirmar lo anterior vamos a quitar todos los ```xspecify``` y los vamos a reemplazar por ```specify``` y posteriormente ejecutaremos el comando ```spec/activerecord_practica_spec.rb```  y veremos que es lo que sucede.
 
 
-![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord3.png)
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord4.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord5.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord6.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord7.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord8.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord9.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord10.png)
 
 
 Aparecen las pruebas en rojo, como son 13 pruebas las cuales han fallado (por aun no estar implementadas) aparecen en formato de 13 veces ```F```
