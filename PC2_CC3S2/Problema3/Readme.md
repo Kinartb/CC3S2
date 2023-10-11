@@ -46,6 +46,29 @@ continuacion vamos a realizar la exploracion del archivo ```db/database.yml``` e
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc9.png)
 
+A continuacion segun lo pedido ejecutamos ```rails generate migration create_movies``` para la migracion de una tabla con nombre create_movies.
 
+![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc10.png)
+
+Llenamos el archivo de la siguienete manera.
+
+```SQL
+class CreateMovies < ActiveRecord::Migration[7.0]
+  def change
+    create_table 'movies' do |t|
+      t.string 'title'
+      t.string 'rating'
+      t.text 'description'
+      t.datetime 'release_date' # Add fields that let Rails automatically  keep track # of when movies are add>
+      t.timestamps
+    end
+  end
+end
+
+
+```
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc11.png)
 
 
