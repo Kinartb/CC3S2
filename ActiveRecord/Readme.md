@@ -12,7 +12,6 @@ Tambien podemos visualizar aquellas pruebas que estan en espera indexadas con un
 
 Para confirmar lo anterior vamos a quitar todos los ```xspecify``` y los vamos a reemplazar por ```specify``` y posteriormente ejecutaremos el comando ```spec/activerecord_practica_spec.rb```  y veremos que es lo que sucede.
 
-
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord4.png)
 
 Los que nos muestra son 13 veces ```F``` el cual es el numero de pruebas fallidas, esto al reemplazar lo anterior. A continuacion se muestra el resto del output.
@@ -23,21 +22,9 @@ Aqui se manifiesta que se han realizado 13 pruebas y que 13 de ellas son pruebas
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord6.png)
 
-Aqui nos muestra sugerencias o soluciones las culaes nos van  a ser utiles al momento de realizar el codigo principal sobre el cual se van a realizar las pruebas.
-
-![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord7.png)
+Aqui nos muestra sugerencias o soluciones las culaes nos van  a ser utiles al momento de realizar el codigo principal sobre el cual se van a realizar las pruebas. A continuacion para el codigo principal se escribira lo siguiente.
 
 
-![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord8.png)
-
-
-![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord9.png)
-
-
-![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord10.png)
-
-
-Aparecen las pruebas en rojo, como son 13 pruebas las cuales han fallado (por aun no estar implementadas) aparecen en formato de 13 veces ```F```
 ```ruby
 require 'sqlite3'
 require 'active_record'
@@ -121,3 +108,16 @@ class Customer < ActiveRecord::Base
   end
 end
 ```
+Ahora ejecutaremos las pruebas y nos saldra lo siguiente.
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord7.png)
+
+Al ejecutar el comando vemos que se realizan pruebas sobre datos SQL de ejemplo, este es un tipo de prueba diferente para analizar los requerimientos con los cuales debe cumplir nuestro campo de trabajo objetivo al momento de trabajar con tablas de datos relacional, ha de ser raro que al memomento de ejecutar ```spec/activerecord_practica_spec.rb``` no aparezcan 13 ejemplos ejecutados correctamente.
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord8.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord9.png)
+
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord10.png)
