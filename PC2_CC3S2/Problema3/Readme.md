@@ -1,4 +1,5 @@
 # Problema 3
+![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc0.png)
 
 ¿Qué pasa con ese mensaje run bundle install?
 
