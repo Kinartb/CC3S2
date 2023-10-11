@@ -125,3 +125,11 @@ Vemos que al terminar de guardar el archivo se ejecutan las pruebas de manera au
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord10.png)
 
 Vemos que al final de la consola aparecen que se han realizado 13 ejemplos con 0 errores, es decir todas las pruebas se ejecutaron con exito.
+
+###Comentario
+
+Las líneas que contienen "TRANSACTION" se refieren a operaciones de control de transacciones en una base de datos. En particular al realizar las pruebas vemos que hay dos tipos de transaction.
+
+*Rollback transaction*: Esto indica que se está realizando un rollback (reversión) de una transacción. En una transacción, si algo sale mal o si ocurre un error, se puede revertir (rollback) para deshacer todas las operaciones realizadas en esa transacción y restaurar la base de datos a su estado anterior.
+
+*Begin transaction*: Aquí, se inicia una nueva transacción. Comienza una nueva unidad en la que se ejecutarán una serie de operaciones. Todas las operaciones realizadas en esta transacción se aplicarán a la base de datos en conjunto, y si alguna operación falla, se puede realizar un rollback para deshacer todas las operaciones dentro de esta transacción.
