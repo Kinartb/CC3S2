@@ -16,6 +16,19 @@ bundle install --path vendor/bundle
 bundle exec rspec --init
 
 ```
+Para problemas con el bundle
+```
+gem uninstall bundler
+
+cd ~/Desktop/CC3S2/ActiveRecord
+rm -rf .bundle
+rm -f .bundle/config
+
+gem install bundler
+
+gem update --system
+
+```
 Para poder ejecutar ``` bundle init ``` para iniciar el archivo Gemfile y luego de poner los requisitos ``` bundle install ``` en el directorio actual
 
 ### Para ejecutar pruebas
