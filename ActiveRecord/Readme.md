@@ -116,11 +116,11 @@ Al ejecutar el comando vemos que se realizan pruebas sobre datos SQL de ejemplo,
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord8.png)
 
-```guard``` es una herramienta que nos permitira evaluar las pruebas correspondientes cada vez que se realice un cambio en el area de trabajo, para esta caso particular borraremos i en la linea 33 del codigo principal para ver si se realiza algun cambio.
+```guard``` es una herramienta que nos permitira evaluar las pruebas correspondientes cada vez que se realice un cambio en el area de trabajo, para esta caso particular borraremos l en la linea 42 del codigo principal para ver si se realiza algun cambio.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord9.png)
 
-Vemos que al terminar de guardar el archivo se ejecutan las pruebas de manera automatica y nos aparece una ventana que dice que se han realizado 13 pruebas y solo de ellas presentan fallos. A continuacion volvemos a corregir el error al reestablecer la i inicial y guardamos.
+Vemos que al terminar de guardar el archivo se ejecutan las pruebas de manera automatica y nos aparece una ventana que dice que se han realizado 13 pruebas y solo de ellas presentan fallos. A continuacion volvemos a corregir el error al reestablecer la l inicial y guardamos.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord10.png)
 
