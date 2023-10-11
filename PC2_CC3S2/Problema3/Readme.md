@@ -26,10 +26,11 @@ Por lo que se elegio la version de 1.4 de sql para trabajar ya que con este no m
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc5.png)
 
-Al escribir dicha ruta en el navegador nos aparece la pagina de incio de rails. 
+Al escribir dicha ruta (URL) en el navegador nos aparece la pagina de inicio de Ruby on Rails por defecto. 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc6.png)
 
+Al entrar a dicha pagina local vemos que nuestra output de la consola ha cambiado, esto quiere decir que ya se recibio una respuesta por parte del cliente (yo) al entrar a esta pagina, vemos que tiene como mensaje la instruccion 200 que quiere indicar que 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc7.png)
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc8.png)
