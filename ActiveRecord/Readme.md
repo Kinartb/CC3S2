@@ -15,12 +15,15 @@ Para confirmar lo anterior vamos a quitar todos los ```xspecify``` y los vamos a
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord4.png)
 
+Los que nos muestra son 13 veces ```F``` el cual es el numero de pruebas fallidas, esto al reemplazar lo anterior. A continuacion se muestra el resto del output.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord5.png)
 
+Aqui se manifiesta que se han realizado 13 pruebas y que 13 de ellas son pruebas fallidas, ademas nos muetra el nuemro de linea donde podria presentar el problema.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord6.png)
 
+Aqui nos muestra sugerencias o soluciones las culaes nos van  a ser utiles al momento de realizar el codigo principal sobre el cual se van a realizar las pruebas.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord7.png)
 
