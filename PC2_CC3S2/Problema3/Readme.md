@@ -1,5 +1,7 @@
 # Problema 3
 
+## Inicializacion
+
 Mostramos las versiones con las cuales estamos trabajando
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc0.png)
