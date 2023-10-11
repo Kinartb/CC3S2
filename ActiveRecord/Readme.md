@@ -1,3 +1,5 @@
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/bi/holarubi2.png)
+
 ```ruby
 require 'sqlite3'
 require 'active_record'
