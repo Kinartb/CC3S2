@@ -75,7 +75,22 @@ Aqui nos muestra que se ha ejecutado la migracion y se creo la tabla movies en l
 class Movie < ActiveRecord::Base 
 end
 ```
-Como ultimo paso antes de continuar, ahora puedes sembrar la base de datos (es decir, agregar datos iniciales) con algunas peliculas para hacer que el resto de la actividad sea mas interesante. 
+Como ultimo paso antes de continuar, ahora puedes sembrar la base de datos (es decir, agregar datos iniciales) con algunas peliculas para hacer que el resto de la actividad sea mas interesante. En la ubicacion ```db/nano seeds.rb``` escribiremos lo siguiente.
+
+```ruby
+# Seed the RottenPotatoes DB with some movies. 
+more_movies = [
+  { :title => 'Ganibal', :rating => 'G', :release_date => '25-Nov-1992' },
+  { :title => 'Fuerza bruta', :rating => 'R', :release_date => '21-Jul-1989' },
+  { :title => 'The Ring', :rating => 'PG-13', :release_date => '10-Aug-2011' },
+  { :title => 'Alien: The Return', :rating => 'PG', :release_date => '12-Jun-1981' }
+]
+
+more_movies.each do |movie|
+  Movie.create!(movie)
+end
+```
+Y posteriormente levantamos con ```rails db:seed```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc12.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc13.png)
