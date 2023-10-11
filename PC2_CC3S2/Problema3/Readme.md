@@ -40,7 +40,7 @@ Vamos a crear una base de datos con el comando ```rails db:create``` este comand
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc8.png)
 
-continuacion vamos a realizar la exploracion del archivo ```db/database.yml``` este archivo como se muestra indica como la aplicacion Rails se va a conectar a la base de datos SQLite en diferentes entornos. Para este caso particular tenemos que para el desarrollo y las pruebas va a utilizar los archivos ```development.sqlite3``` y  ```test.sqlite3``` respectivamente en la direccion db.
+continuacion vamos a realizar la exploracion del archivo ```db/database.yml``` este archivo como se muestra indica como la aplicacion Rails se va a conectar a la base de datos SQLite en diferentes entornos. Para este caso particular tenemos que para el desarrollo, la produccion y las pruebas van a utilizar los archivos ```development.sqlite3```, ```production.sqlite3```  y  ```test.sqlite3``` respectivamente en la direccion db.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc9.png)
 
