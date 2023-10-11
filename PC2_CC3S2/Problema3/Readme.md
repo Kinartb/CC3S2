@@ -75,6 +75,7 @@ Aqui nos muestra que se ha ejecutado la migracion y se creo la tabla movies en l
 class Movie < ActiveRecord::Base 
 end
 ```
+Como ultimo paso antes de continuar, ahora puedes sembrar la base de datos (es decir, agregar datos iniciales) con algunas peliculas para hacer que el resto de la actividad sea mas interesante. 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc12.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc13.png)
