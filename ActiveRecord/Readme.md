@@ -1,6 +1,6 @@
 Ejecutamos bundle para instalar las gemas en nuestro proyecto local con ```bundle```. Posteriormente iremos a la carpeta de trabajo y ejecutaremos ```bundle exec rspec spec/activerecord_practica_spec.rb```.
 
-![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/bi/holarubi2.png)
+![]([https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/bi/holarubi2.png](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord1.png))
 
 ```ruby
 require 'sqlite3'
