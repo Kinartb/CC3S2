@@ -22,9 +22,11 @@ Vemos como se realiza el cambio en las gemas al ejecutar ```bundle install```. S
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc3.png)
 
-Por lo que se elegio la version de 1.4 de sql para trabajar ya que con este no mandaba error, vemos que al ejecutar ```rail server``` aparece que hemos inicializado una pagina web local en estado de espera
+Por lo que se elegio la version de 1.4 de sql para trabajar ya que con este no mandaba error, vemos que al ejecutar ```rail server``` aparece que hemos inicializado una pagina web local en estado de espera que se encuentra(para este caso en particular) en la ruta ```http://127.0.0.1:3000```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc5.png)
+
+Al escribir dicha ruta en el navegador nos aparece la pagina de incio de rails. 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc6.png)
 
