@@ -69,8 +69,7 @@ Lo que realizara este codigo al ejecutar ```rails db:migrate``` es crear una tab
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc11.png)
 
-Aqui nos muestra que se ha ejecutado la migracion y se creo la tabla movies en la base de datos de desarrollo. Vemos que si ejecutamos ```rails db:migrate``` no aparece ningun cambio ya que solo aplica las migraciones que aun no se han aplicado.
-
+Aqui nos muestra que se ha ejecutado la migracion y se creo la tabla movies en la base de datos de desarrollo. Vemos que si ejecutamos ```rails db:migrate``` no aparece ningun cambio ya que solo aplica las migraciones que aun no se han aplicado. A continuacion vamos a crear el modelo ```Movie```
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc12.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc13.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc14.png)
