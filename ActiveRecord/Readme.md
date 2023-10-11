@@ -2,6 +2,10 @@ Ejecutamos bundle para instalar las gemas en nuestro proyecto local con ```bundl
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord1.png)
 
+Vemos que nos aparecen trece ```*``` de color amarillento esto es porque en el archivo ```spec/activerecord_practica_spec.rb``` se encuentran de manera desarrollada las pruebas con el texto ```xspecify```.
+
+![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord2.png)
+
 ```ruby
 require 'sqlite3'
 require 'active_record'
