@@ -30,7 +30,7 @@ Al escribir dicha ruta (URL) en el navegador nos aparece la pagina de inicio de 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc6.png)
 
-Al entrar a dicha pagina local vemos que nuestra output de la consola ha cambiado, esto quiere decir que ya se recibio una respuesta por parte del cliente (yo) al entrar a esta pagina, vemos que tiene como mensaje la instruccion 200 que hace referencia al codigoHTTP 200 OK el cual indica que la solicitud ha tenido éxito.
+Al entrar a dicha pagina local vemos que nuestra output de la consola ha cambiado, esto quiere decir que ya se recibio una respuesta por parte del cliente (yo) al entrar a esta pagina, vemos que tiene como mensaje la instruccion 200 que hace referencia al codigo HTTP 200 OK el cual indica que la solicitud ha tenido éxito.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc7.png)
 
