@@ -50,7 +50,7 @@ A continuacion segun lo pedido ejecutamos ```rails generate migration create_mov
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc10.png)
 
-Llenamos el archivo de la siguienete manera.
+Los numeros del nombre del archivo indica la fecha y hora de creacion con posteriormente el nombre indicado de creacion ya que de esta manera es la cual se organizan los archivos en este entorno. Ahora llenaremos dicho archivo de la siguiente manera.
 
 ```ruby
 class CreateMovies < ActiveRecord::Migration[7.0]
