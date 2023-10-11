@@ -126,7 +126,7 @@ Vemos que al terminar de guardar el archivo se ejecutan las pruebas de manera au
 
 Vemos que al final de la consola aparecen que se han realizado 13 ejemplos con 0 errores, es decir todas las pruebas se ejecutaron con exito.
 
-###Comentario
+### Comentario
 
 Las líneas que contienen "TRANSACTION" se refieren a operaciones de control de transacciones en una base de datos. En particular al realizar las pruebas vemos que hay dos tipos de transaction.
 
