@@ -22,7 +22,7 @@ Vemos como se realiza el cambio en las gemas al ejecutar ```bundle install```. S
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc3.png)
 
-![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc4.png)
+Por lo que se elegio la version de 1.4 de sql para trabajar ya que con este no mandaba error, vemos que al ejecutar ```rail server``` aparece que hemos inicializado una pagina web local en estado de espera
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc5.png)
 
