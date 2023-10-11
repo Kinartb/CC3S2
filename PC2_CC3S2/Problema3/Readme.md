@@ -93,5 +93,13 @@ end
 Y posteriormente levantamos con ```rails db:seed```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc12.png)
+
+Para verificar de que se ha realizado alguna modificacion vamos a hacer consultas, para esto entramos a la consola de rails con el comando ```rails console``` y posteriormente en el nuevo pront ejecutamos ```Movie.first```.
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc13.png)
+
+Lo que el comando anterior muestra es el primero elemento de la fila de la base da datos, sin embargo no muestra la totalidad de los datos a modo de ejemplo ejecutamos el comando ```Movie.all```.
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc14.png)
+
+Lo que muestra son todos los datos creados por la semilla ```seed.rb``` platada.
