@@ -65,8 +65,9 @@ class CreateMovies < ActiveRecord::Migration[7.0]
   end
 end
 ```
-Lo que realizara este codigo al ejecutar ```rails db:migrate``` es crear una tabla llamada movies la cual va a tener como columnas los campos title, rating, description y release_date. Y tambien las columnas automaticas de Rails correspondiente con timestamps (de tiempo) con nombres created_at y update_at.
+Lo que realizara este codigo al ejecutar ```rails db:migrate``` es crear una tabla llamada movies la cual va a tener como columnas los campos title, rating, description y release_date. Y tambien las columnas automaticas de Rails correspondiente con timestamps (de tiempo) con nombres created_at y update_at. Posteriormente ejecutamos ```rails db:migrate```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc11.png)
 
+Aqui nos muestra que se ha ejecutado la migracion y se creo la tabla movies en la base de datos de desarrollo. Vemos que si ejecutamos ```rails db:migrate``` no aparece ningun cambio.
 
