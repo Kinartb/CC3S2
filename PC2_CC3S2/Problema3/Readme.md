@@ -36,7 +36,7 @@ Al entrar a dicha pagina local vemos que nuestra output de la consola ha cambiad
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc7.png)
 
-## Creacion de Base de Datps
+## Exploracion a base de datos y creacion
 
 Vamos a crear una base de datos con el comando ```rails db:create``` este comando inicializa una base de datos en el entorno db con el nombre ```development.sqlite3``` pero como este archivo ya se ha creado anteriormente entonces en su lugar se crea ```test.sqlite3```.
 
