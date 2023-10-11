@@ -112,12 +112,16 @@ Ahora ejecutaremos las pruebas y nos saldra lo siguiente.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord7.png)
 
-Al ejecutar el comando vemos que se realizan pruebas sobre datos SQL de ejemplo, este es un tipo de prueba diferente para analizar los requerimientos con los cuales debe cumplir nuestro campo de trabajo objetivo al momento de trabajar con tablas de datos relacional, ha de ser raro que al memomento de ejecutar ```spec/activerecord_practica_spec.rb``` no aparezcan 13 ejemplos ejecutados correctamente.
+Al ejecutar el comando vemos que se realizan pruebas sobre datos SQL de ejemplo, este es un tipo de prueba diferente para analizar los requerimientos con los cuales debe cumplir nuestro campo de trabajo objetivo al momento de trabajar con tablas de datos relacional, ha de ser raro que al memomento de ejecutar ```spec/activerecord_practica_spec.rb``` no aparezcan 13 ejemplos ejecutados correctamente. A continuacion vamos a hacer uso de ```guard``` en consola para serciorarnos que todas las pruebas esten correctas.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord8.png)
 
+```guard``` es una herramienta que nos permitira evaluar las pruebas correspondientes cada vez que se realice un cambio en el area de trabajo, para esta caso particular borraremos i en la linea 33 del codigo principal para ver si se realiza algun cambio.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord9.png)
 
+Vemos que al terminar de guardar el archivo se ejecutan las pruebas de manera automatica y nos aparece una ventana que dice que se han realizado 13 pruebas y solo de ellas presentan fallos. A continuacion volvemos a corregir el error al reestablecer la i inicial y guardamos.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/ActiveRecord/Imagenes/activerecord10.png)
+
+Vemos que al final de la consola aparecen que se han realizado 13 ejemplos con 0 errores, es decir todas las pruebas se ejecutaron con exito.
