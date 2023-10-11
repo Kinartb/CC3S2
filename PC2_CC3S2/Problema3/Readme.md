@@ -52,7 +52,7 @@ A continuacion segun lo pedido ejecutamos ```rails generate migration create_mov
 
 Llenamos el archivo de la siguienete manera.
 
-```SQL
+```ruby
 class CreateMovies < ActiveRecord::Migration[7.0]
   def change
     create_table 'movies' do |t|
@@ -64,10 +64,8 @@ class CreateMovies < ActiveRecord::Migration[7.0]
     end
   end
 end
-
-
 ```
-
+Lo que realizara este codigo al ejecutar ```rails db:migrate``` es crear una tabla llamada movies la cual va a tener como columnas los campos title, rating, description y release_date. Y tambien las columnas automaticas de Rails correspondiente con timestamps (de tiempo) con nombres created_at y update_at.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc11.png)
 
