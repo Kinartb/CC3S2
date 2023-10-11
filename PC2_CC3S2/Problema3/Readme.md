@@ -103,3 +103,5 @@ Lo que el comando anterior muestra es el primero elemento de la fila de la base 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc14.png)
 
 Lo que muestra son todos los datos creados por la semilla ```seed.rb``` plantada.
+
+## Parte 3: Crear rutas, acciones y vistas CRUD para películas
