@@ -18,6 +18,6 @@ cambiamos el Gemfile para trabajar con la version de sql especificada
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc2.png)
 
-Vemos como se realiza el cambio en las gemas al ejecutar ```bundle install```
+Vemos como se realiza el cambio en las gemas al ejecutar ```bundle install```. Se realiza las especificaciones sin embargo presenta un error al momento de ejecutar el comando ```rails server```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc3.png)
