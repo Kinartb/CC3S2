@@ -1,7 +1,7 @@
 # Parte 3
 Realizamos la clonacion del trabajo correspondiente ```git clone https://github.com/lenin254/PC1_CC3S2.git```. Ejecutamos bundle install dentro del proyecto, ejecutamos el comando ```bundle exec rackup --port 3000``` y abrimos la web local en la URL ```http://localhost:3000/new```
 
-![]()
+![](https://github.com/Kinartb/CC3S2/blob/main/ExamenParcial/Imagenes/aux1.png)
 
 *Pregunta*
 
