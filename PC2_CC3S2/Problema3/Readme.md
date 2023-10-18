@@ -141,7 +141,7 @@ Lo que realiza el comando es enumera el nombre del modelo (es decir, Movie) segu
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc21.png)
 
-Tambien vemos que se generan los campos create esot quiere decir que se a creado la vista por defecto para Rail de este modo vamos de nuevo a la pagina y verificar que todo se ejecuta correctamente al realizar la inspeccion de ```http://127.0.0.1:3000/movies``` .
+Tambien vemos que se generan los campos create esTo quiere decir que se a creado la vista por defecto para Rail de este modo vamos de nuevo a la pagina y verificar que todo se ejecuta correctamente al realizar la inspeccion de ```http://127.0.0.1:3000/movies``` .
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc22.png)
 
