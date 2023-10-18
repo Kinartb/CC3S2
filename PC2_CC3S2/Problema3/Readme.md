@@ -109,7 +109,7 @@ Inicializamos la web local con el comando ```rails server```, posteriormente ent
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc15.png)
 
-Esto se debe a que Rails se quejará de que tu URI no coincide con ninguna ruta, porque no hemos especificado ninguna ruta que asigne URI a métodos de aplicación. Tambien podemos ver que las busquedas solicitadas en el archivo ```log/development.log```
+Esto se debe a que Rails se quejará de que tu URI no coincide con ninguna ruta, porque no hemos especificado ninguna ruta que asigne URI a métodos de aplicación. Tambien podemos ver que las busquedas solicitadas en el archivo ```log/development.log```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc16.png)
 
@@ -121,12 +121,16 @@ Rails.application.routes.draw hacer
   root :to => redirect('/movies')
 end
 ``` 
-guarda el archivo routes.rb y ejecutamos ```rails routes```, y observa que debido a nuestro cambio a routes.rb, la primera línea de salida dice que el URI GET /movies intentará llamar a la acción index de MoviesController.
+Guarda el archivo routes.rb y ejecutamos ```rails routes```, y observa que debido a nuestro cambio a routes.rb, la primera línea de salida dice que el URI GET /movies intentará llamar a la acción index de MoviesController. La ruta raíz '/', la “home page” de RottenPotatoes, tomara nos lleva a la pagina principal de listado de películas mediante un mecanismo que pronto veremos llamado  URL redirection. Vemos que al abrir de nuevo la pagina en la direccion ```http://127.0.0.1:3000/movies``` nos sale un tipo diferente de error llamado ```uninitialized constant MoviesController```. 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc17.png)
 
+MoviesController constante no inicializada. Estas son buenas noticias: Rails esencialmente se queja de que no puede encontrar la clase MoviesController, pero el hecho de que incluso este buscando esa clase nos dice que nuestra ruta está funcionando correctamente. Este tambien puede ser vista en el log.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc18.png)
+
+Vemos que en el log tambien aparece el mismo tipo de error de inicializacion en ```log/development.log```. A continuacion vamos a ejecutar el comando ```rails g scaffold_controller Movie title rating description release_date --skip-test```
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc19.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc20.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc21.png)
