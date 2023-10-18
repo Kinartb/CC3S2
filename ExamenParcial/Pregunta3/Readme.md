@@ -1,7 +1,7 @@
 # Parte 3
 Realizamos la clonacion del trabajo correspondiente ```git clone https://github.com/lenin254/PC1_CC3S2.git```. Ejecutamos bundle install dentro del proyecto, ejecutamos el comando ```bundle exec rackup --port 3000``` y abrimos la web local en la URL ```http://localhost:3000/new```
 
-!()[]
+![]()
 
 *Pregunta*
 
@@ -18,17 +18,23 @@ Es buena practica porque a veces las gemas pueden entrar en conflicto, ademas no
 
   • ¿En qué parte de la estructura del directorio de la aplicación Rails está el código correspondiente al modelo WordGuesserGame?
 
-La logica de juego en Sinatra se encuentra ubicado en ```lib/wordguesser_game.rb``` mientras que en la aplicacion Rails la logica del juego se encuentra en ```hw-rails-wordguesser/app/models/word_guesser_game.rb```. Se dice que es la logica del programa en ambos cosas porque la estructura del codigo hace referencia a funcionalidades internas como por ejemplo el encontrar palabras de manera espeficica.
+En la aplicacion Rails la logica del juego se encuentra en ```app/models/word_guesser_game.rb```. Se dice que es la logica del programa en ambos cosas porque la estructura del codigo hace referencia a funcionalidades internas como por ejemplo el encontrar palabras de manera espeficica. app/models/word_guesser_game.rb
   
   • ¿En qué archivo está el código que más se corresponde con la lógica del archivo app.rb de las aplicaciones Sinatra que maneja las acciones entrantes del usuario?
 
-Las acciones entrantes del usuario se van a dar a traves de la pantalla haciendo click en los botones correspondientes, para esto se usar un entorno de visualiazacion 
+En el archivo ```app/controllers/game_controller.rb```, esto se debe a que dicho archivo muestra ordenes de redireccionamiento a lo largo del codigo, en las lineas donde se muestra ```redirect_to (----)``` hace referencia a la instruccion la cual nos va a redirigir segun la orden o condicion asignada, por ejemplo, se tiene las direcciones ```redirect_to game_path```, ```redirect_to win_game_path ``` y ```redirect_to lose_game_path ```.
   
   • ¿Qué clase contiene ese código?
+
+Ese codigo contiene la clase ```class GameController < ApplicationController``` esto queire decir que GameController (la clase hija) va a heredar (<) caracteristicas de la clase padre ApplicationController.
   
   • ¿De qué otra clase (que es parte del framework Rails) hereda esa clase?
-  
+
+Lo realiza de ```class ApplicationController < ActionController::Base``` ya que vemos que se usa el elemento (<) el cual significa que el de la izquierda (clase hijo) va a heredar caractiristicas de la clase derecha (clase padre). 
+
   • ¿En qué directorio está el código correspondiente a las vistas de la aplicación Sinatra (new.erb, show.erb, etc.)?
+
+Esto podemos encontrarlo en el directorio ```app/views```. Los archivos .erb se utilizan como plantilla para crear archivos web, en el caso de app/views contiene las mismas caracteristicas.
   
   • Los sufijos de nombre de archivo para estas vistas son diferentes en Rails que en la aplicación Sinatra. ¿Qué información proporciona el sufijo situado más a la derecha del nombre del archivo (por ejemplo: en foobar.abc.xyz, el sufijo .xyz) sobre el contenido del archivo?
   
