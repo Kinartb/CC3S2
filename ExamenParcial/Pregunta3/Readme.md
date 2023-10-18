@@ -55,8 +55,21 @@ Hace referencia a las correspondencias, por ejemplo para referirse a ```app/cont
 *Preguntas*
 
   • En la versión de Sinatra, los bloques before do...end y after do...end se utilizan para la gestión de sesiones. ¿Cuál es el equivalente más cercano en esta aplicación Rails y en qué archivo encontramos el código que lo hace?
- 
+  
+Se encuentra ubicado en la siguiente ruta ```app/controllers/game_controller.rb```
 
+```ruby
+  def get_game_from_session
+    @game = WordGuesserGame.new('')
+    if !session[:game].blank?
+      @game = YAML.load(session[:game])
+    end
+  end
+
+  def store_game_in_session
+    session[:game] = @game.to_yaml
+  end
+```
   
   • Un formato de serialización popular para intercambiar datos entre aplicaciones web es JSON. ¿Por qué no funcionaría utilizar JSON en lugar de YAML? (Reemplaza YAML.load() con JSON.parse() y .to_yaml con .to_json para realizar esta prueba. Tendrás que borrar las cookies asociadas con localhost:3000 o reiniciar tu navegador con un nuevo Incognito/ Ventana de navegación privada, para borrar la sesión[]. Según los mensajes de error que recibe al intentar utilizar la serialización JSON, debería poder explicar por qué la serialización YAML funciona en este caso pero JSON no).
 
