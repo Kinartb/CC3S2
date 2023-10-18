@@ -129,10 +129,15 @@ MoviesController constante no inicializada. Estas son buenas noticias: Rails ese
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc18.png)
 
-Vemos que en el log tambien aparece el mismo tipo de error de inicializacion en ```log/development.log```. A continuacion vamos a ejecutar el comando ```rails g scaffold_controller Movie title rating description release_date --skip-test```
+Vemos que en el log tambien aparece el mismo tipo de error de inicializacion en ```log/development.log```. 
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc19.png)
+
+A continuacion vamos a ejecutar el comando ```rails g scaffold_controller Movie title rating description release_date --skip-test```.
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc20.png)
+
+Lo que realiza el comando es enumera el nombre del modelo (es decir, Movie) seguido de los campos en los registros de la película (es decir, título, clasificación, descripción y fecha de lanzamiento).
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc21.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc22.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc23.png)
