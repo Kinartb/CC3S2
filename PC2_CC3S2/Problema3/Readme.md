@@ -197,7 +197,7 @@ gem 'sqlite3', '~> 1.4.0'
 end
 ```
 
-Aqui acaba la pc *No se desplego en heroku*
+Aqui acaba el informe *No se desplego en heroku*
 
 
 
