@@ -158,8 +158,46 @@ A continuacion ejecutamos el comando ```rails server``` para inicializar nuevame
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc24.png)
 
-Abrimos la ubicacion y vemos que como hemos hecho un cambio basico se ha cambiado el tipo de letra a Arial como hemos especificado anteriormente.
+Abrimos la ubicacion y vemos que como hemos hecho un cambio basico se ha cambiado el tipo de letra a Arial como hemos especificado anteriormente. A continuacion vamos a realizar el despegue a heroku, para pasar a la fase de deployment tenemos que cambiar nuestro Gemfile escribiendo lo siguiente en los grupos correspondientes.
+
+```ruby
+group :production do
+
+gem 'pg', '~> 0.21' # Heroku deployment
+
+gem 'rails_12factor'
+
+end
+
+group :development,: test do
+
+gem 'sqlite3', '~> 1.3.0'
+
+end
+```
+Posteriormente ejecutamos ```bundle install```
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc26.png)
+
+Vemos que se han realizado los cambios pero al contrario de lo que se pensaba cuando se intenta visualizar la web local al iniciar con ```rails server``` me aparece un error de configuracion del bundle por lo que para mi caso opte por usar la version 1.4.0 de sqlite3 por lo que el Gemfile realmente apareceria de esa forma.
+
+```ruby
+group :production do
+
+gem 'pg', '~> 0.21' # Heroku deployment
+
+gem 'rails_12factor'
+
+end
+
+group :development,: test do
+
+gem 'sqlite3', '~> 1.4.0'
+
+end
+```
+
+Aqui acaba la pc *No se desplego en heroku*
 
 
 
