@@ -36,7 +36,8 @@ Vemos en el output los elementos creados el id que responde al orden de creacion
 
 Vemos que como no se ha borrado lo escrito anteriormente en la semilla y se ha usado de nuevo el comando ```rails db:seed``` se repite la categorizacion del archivo y lo sube como uno nuevo en su conjunto. Ademas ahora se sube como Id:5 (nueva identificador  agregado) al elemento ```Todo.create(description: "Hola soy un intruso adicional")```.
 
-
+### Mas migraciones
+### Nuevas rutas
 
 
 
