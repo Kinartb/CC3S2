@@ -105,10 +105,19 @@ Lo que muestra son todos los datos creados por la semilla ```seed.rb``` plantada
 
 ## Parte 3: Crear rutas, acciones y vistas CRUD para películas
 
+Inicializamos la web local con el comando ```rails server```, posteriormente entramos a las rutas de ```http://127.0.0.1:3000/movies``` o con la terminacion ```/turtle``` para verificar que es lo que se tiene. Se tiene un mensaje error del tipo ```no route maches```.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc15.png)
+
+Esto se debe a que Rails se quejará de que tu URI no coincide con ninguna ruta, porque no hemos especificado ninguna ruta que asigne URI a métodos de aplicación. Tambien podemos ver que las busquedas solicitadas en el archivo ```log/development.log```
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc16.png)
+
+Lo que se visualiza aqui son los difentes rutas con respecto a ```/movie``` (ya que tal vez se haya escrito mal) y aparece la ultima solicitud la cual corresponde  a ```/turtle``` todos con el mismo tipo de fallo.
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc17.png)
+
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc18.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc19.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc20.png)
