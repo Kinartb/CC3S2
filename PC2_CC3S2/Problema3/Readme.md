@@ -138,8 +138,14 @@ A continuacion vamos a ejecutar el comando ```rails g scaffold_controller Movie 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc20.png)
 
 Lo que realiza el comando es enumera el nombre del modelo (es decir, Movie) seguido de los campos en los registros de la película (es decir, título, clasificación, descripción y fecha de lanzamiento).
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc21.png)
+
+Tambien vemos que se generan los campos create esot quiere decir que se a creado la vista por defecto para Rail de este modo vamos de nuevo a la pagina y verificar que todo se ejecuta correctamente al realizar la inspeccion de ```http://127.0.0.1:3000/movies``` .
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc22.png)
+
+
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc23.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc24.png)
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc25.png)
