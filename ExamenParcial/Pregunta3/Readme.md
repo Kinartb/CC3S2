@@ -17,11 +17,29 @@ Es buena practica porque a veces las gemas pueden entrar en conflicto, ademas no
 *PREGUNTA*
 
   • ¿En qué parte de la estructura del directorio de la aplicación Rails está el código correspondiente al modelo WordGuesserGame?
+
+La logica de juego en Sinatra se encuentra ubicado en ```lib/wordguesser_game.rb``` mientras que en la aplicacion Rails la logica del juego se encuentra en ```hw-rails-wordguesser/app/models/word_guesser_game.rb```. Se dice que es la logica del programa en ambos cosas porque la estructura del codigo hace referencia a funcionalidades internas como por ejemplo el encontrar palabras de manera espeficica.
+  
   • ¿En qué archivo está el código que más se corresponde con la lógica del archivo app.rb de las aplicaciones Sinatra que maneja las acciones entrantes del usuario?
+
+Las acciones entrantes del usuario se van a dar a traves de la pantalla haciendo click en los botones correspondientes, para esto se usar un entorno de visualiazacion 
+  
   • ¿Qué clase contiene ese código?
+  
   • ¿De qué otra clase (que es parte del framework Rails) hereda esa clase?
+  
   • ¿En qué directorio está el código correspondiente a las vistas de la aplicación Sinatra (new.erb, show.erb, etc.)?
+  
   • Los sufijos de nombre de archivo para estas vistas son diferentes en Rails que en la aplicación Sinatra. ¿Qué información proporciona el sufijo situado más a la derecha del nombre del archivo (por ejemplo: en foobar.abc.xyz, el sufijo .xyz) sobre el contenido del archivo?
+  
   • ¿Qué información te brinda el otro sufijo sobre lo que se le pide a Rails que haga con el archivo?
+  
   • ¿En qué archivo está la información de la aplicación Rails que asigna rutas (por ejemplo, GET/new) a las acciones del controlador?
+  
   • ¿Cuál es el papel de la opción :as => 'name' en las declaraciones de ruta de config/routes.rb? .
+
+
+
+
+
+  
