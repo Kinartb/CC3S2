@@ -113,7 +113,15 @@ Esto se debe a que Rails se quejará de que tu URI no coincide con ninguna ruta,
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc16.png)
 
-Lo que se visualiza aqui son los difentes rutas con respecto a ```/movie``` (ya que tal vez se haya escrito mal) y aparece la ultima solicitud la cual corresponde  a ```/turtle``` todos con el mismo tipo de fallo.
+Lo que se visualiza aqui son los difentes rutas con respecto a ```/movie``` (ya que tal vez se haya escrito mal) y aparece la ultima solicitud la cual corresponde  a ```/turtle``` todos con el mismo tipo de fallo. A continuacion vamos a escribir lo siguiente en el archivo ``` config/routes.rb```.
+
+```ruby
+Rails.application.routes.draw hacer
+   resources :movies
+  root :to => redirect('/movies')
+end
+``` 
+guarda el archivo routes.rb y ejecutamos ```rails routes```, y observa que debido a nuestro cambio a routes.rb, la primera línea de salida dice que el URI GET /movies intentará llamar a la acción index de MoviesController.
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc17.png)
 
