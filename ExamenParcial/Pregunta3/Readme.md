@@ -89,4 +89,5 @@ Se encuentra ubicado en la siguiente ruta ```app/controllers/game_controller.rb`
 
   • ¿Cuál es una explicación cualitativa de por qué no fue necesario modificar los escenarios de Cucumber y las definiciones de pasos para que funcionaran igualmente bien con las versiones de la aplicación Sinatra o Rails? 
 
+Porque el uso de APIS es el mismo en ambos casos por lo que no habria problema
   
