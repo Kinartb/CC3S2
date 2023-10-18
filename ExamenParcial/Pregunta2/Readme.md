@@ -26,10 +26,15 @@ Este output indica que se ha realizado la creacion de la tabla todos en un tiemp
 Todo.create(description: "Hello CC3S2- Kids")
 Todo.create(description: " Do the assignments kid ")
 ```
-Insertamos los datos en la base de datos con el comando
+Insertamos los datos en la base de datos con el comando ```rails db:seed```. Para verificar de que se ha realizado alguna modificacion vamos a hacer consultas, para esto entramos a la consola de rails con el comando ```rails console``` y posteriormente en el nuevo pront ejecutamos Todo.all para ver todos lo creado.
 
+![]()
 
+Vemos en el output los elementos creados el id que responde al orden de creacion y la descripcion asignada en la seccion ```description```, tambien podemos visualizar la fecha de creacion y la fecha de actualizacion del elemento. A modo adicional agregaremos el elemento ```Todo.create(description: "Hola soy un intruso adicional")``` a ```seeds  .rb```. Ejecutaremos el comando ```rails db:seed``` a visualizamos lo que se ha relizado algun cambio en la base de datos con ```rails console``` y escribiremos ```Todo.all```.
 
+![]()
+
+Vemos que como no se ha borrado lo escrito anteriormente en la semilla y se ha usado de nuevo el comando ```rails db:seed``` se repite la categorizacion del archivo y lo sube como uno nuevo en su conjunto. Ademas ahora se sube como Id:5 (nueva identificador  agregado) al elemento ```Todo.create(description: "Hola soy un intruso adicional")```.
 
 
 
