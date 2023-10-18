@@ -145,7 +145,7 @@ Tambien vemos que se generan los campos create esTo quiere decir que se a creado
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc22.png)
 
-Lo que se visualiza en los parametros ```body``` que establece los parametros para todo el cuerpo del documento html y hacen referencia al fondo del cuerpo que sera de color gris #f5f5f5 y se elije la fuente font-family como Arial. Y tambien a ```header``` que hace referencia a la configuracion del fondo en un tono oscuro #333 el color del texto en blanco #fff y se agrega un relleno padding de 10 pixeles. 
+Lo que se visualiza en los parametros ```body``` que establece los parametros para todo el cuerpo del documento html y hacen referencia al fondo del cuerpo que sera de color gris #f5f5f5 y se elije la fuente font-family como Arial. Y tambien a ```header``` que hace referencia a la configuracion del fondo en un tono oscuro #333 el color del texto en blanco #fff y se agrega un relleno padding de 10 pixeles. En el siguiente punto se debe especificar que se esta utilizando application
 
 ![](https://github.com/Kinartb/CC3S2/blob/main/PC2_CC3S2/Imagenes/pc23.png)
 
