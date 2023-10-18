@@ -87,6 +87,8 @@ Se encuentra ubicado en la siguiente ruta ```app/controllers/game_controller.rb`
   
   • En la versión de Sinatra, las vistas de show, win y lose reutilizan el código en la vista new que ofrece un botón para iniciar un nuevo juego. ¿Qué mecanismo de Rails permite reutilizar esas vistas en la versión de Rails?.
 
+Render, esta es una herramienta que permite puede representar la vista predeterminada para una plantilla de Rails, también puede especificar el tipo de contenido o el estado HTTP de la respuesta representada. ref: https://guides.rubyonrails.org/layouts_and_rendering.html
+
   • ¿Cuál es una explicación cualitativa de por qué no fue necesario modificar los escenarios de Cucumber y las definiciones de pasos para que funcionaran igualmente bien con las versiones de la aplicación Sinatra o Rails? 
 
 Porque el uso de APIS es el mismo en ambos casos por lo que no habria problema
