@@ -39,6 +39,29 @@ Vemos que como no se ha borrado lo escrito anteriormente en la semilla y se ha u
 ### Mas migraciones
 ### Nuevas rutas
 
+Para agregar un nuevo servicio a la aplicacion existente. Para poder acceder a el, debemos crear una nueva ruta. Modificamos el archivo ``` config/routes.rb ``` del siguiente modo.
+
+```ruby
+Rails.application.routes.draw do
+  resources :todos
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  get '/hello', to: 'todos#hello'
+  # Defines the root path route ("/")
+  # root "articles#index"
+end
+```
+
+En la ubicacion ```app/views/todos``` creamos el archivo ```hello.html.erb```  y escribiremos ```<h1>¡Hola!</h1>``` en el. Ahora nos vamos a ```app/controllers/todos_controller.rb```. Agregamos
+
+```ruby
+def hello
+      respond_to do |format|
+format.html { render :hello }
+format.json { render json: "hello world!" }
+      end
+end
+```
+
 
 
 
