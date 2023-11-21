@@ -115,7 +115,7 @@ function greatestNumber(array) {
 ```
 Reescribe la función para que se convierta en una `O(N)` más rápida:
 
-```
+```javascript
 function greatestNumber(array) {
     if (array.length === 0) {
       return undefined; 
