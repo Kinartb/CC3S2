@@ -1,19 +1,21 @@
 ## Java Script
 
-Antes de tomar esta clase, es muy probable que hayas oído hablar del lenguaje de programación JavaScript. En este curso, exploraremos cómo podemos mejorar la experiencia del usuario del lado cliente de las aplicaciones con este poderoso lenguaje.
-
-La comunidad de JavaScript ha florecido en los últimos años y frameworks como [React](https://react.dev/) y [Node.js](https://nodejs.org/en) hacen posible escribir aplicaciones completas en JavaScript. Nos centraremos principalmente en el lenguaje JavaScript, AJAX, DOM y Eventos/Callback. 
-
-Presenta todas tus respuestas en un repositorio titulado `javascript`.
-
 ### Preguntas conceptuales
 
 Piensa en las siguientes preguntas sobre JavaScript. Si puedes, ¡coméntalo con tus compañeros!
 
 * En JavaScript, todas las operaciones de red son asíncronas. ¿Porque es esto importante?
+  
+RPTA:
 * En Javascript, queremos realizar acciones tras una operación/solicitud de red completa. ¿Qué paradigma de programación hace esto posible?
+
+RPTA:
 * ¿Javascript proporciona soporte limitado para la herencia a través de qué mecanismo?
+
+RPTA:
 * ¿Qué es el DOM? ¿Qué librería nos ayuda a usar Javascript para manipular el DOM?
+
+RPTA:
 
 ### ¿Qué puede hacer Javascript ?
 
