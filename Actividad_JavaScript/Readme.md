@@ -154,7 +154,7 @@ function containsX(string) {
 
 RPTA: Tiene complejidad O(N)
 
-```
+```javascript
 // Tiene complejidad O(N)
 function containsX(string) {
     return string.includes("X");
