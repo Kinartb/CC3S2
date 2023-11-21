@@ -116,6 +116,7 @@ function greatestNumber(array) {
 Reescribe la función para que se convierta en una `O(N)` más rápida:
 
 ```javascript
+//cambia a O(N)
 function greatestNumber(array) {
     if (array.length === 0) {
       return undefined; 
@@ -128,6 +129,11 @@ function greatestNumber(array) {
     }
     return maxNumber; 
   }
+
+// Ejemplo de uso:
+const numbers = [7, 12, 5, 21, 9, 15];
+const Ejemplo1 = greatestNumber(numbers);
+console.log(Ejemplo1); // Devolverá 21
   
 ```
 La siguiente función devuelve si hay o no una `X` mayúscula dentro de una cadena.
@@ -145,6 +151,19 @@ function containsX(string) {
 ```
 
 ¿Cuál es la complejidad temporal de esta función en términos de notación O grande? Luego, modifica el código para mejorar la eficiencia del algoritmo en los mejores y promedios escenarios.
+
+RPTA: Tiene complejidad O(N)
+
+```
+// Tiene complejidad O(N)
+function containsX(string) {
+    return string.includes("X");
+  }
+
+  // Ejemplo de uso:
+const Ejemplo2 = "Hola MundoX";
+console.log(containsX(Ejemplo2)); // Devolverá true
+```
 
 Escribe una función que devuelva el primer carácter no duplicado de una cadena. Por ejemplo, la cadena "mínimum" tiene dos caracteres que solo existen una vez: la `n` y la `u`, por lo que su función debería devolver la `n`, ya que aparece primero. La función debe tener una eficiencia de `O(N)`.
 
@@ -164,8 +183,8 @@ Escribe una función que devuelva el primer carácter no duplicado de una cadena
   }
   
   // Ejemplo de uso:
-  const result = PrimerCaracterNoDuplicado("minimum");
-  console.log(result); // Devolverá "n"
+  const Ejemplo3 = PrimerCaracterNoDuplicado("minimum");
+  console.log(Ejemplo3); // Devolverá "n"
 ```
 
 #### Clases
