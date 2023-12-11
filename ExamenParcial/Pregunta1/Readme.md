@@ -47,3 +47,20 @@ end
 objeto.metodo_nuevo
 
 ```
+
+Respuesta 3:
+
+
+2. ¿Cuándo es una mala idea implementar una abstracción mediante metaprogramación?
+
+Es una mala idea implementar una abstracción mediante metaprogramación cuando:
+
+La claridad se ve comprometida: Si el código se vuelve más difícil de entender debido a la metaprogramación, puede ser perjudicial para la legibilidad y mantenibilidad del código.
+
+No hay un beneficio claro: Si la metaprogramación no proporciona un beneficio significativo en términos de rendimiento, flexibilidad o reducción de código repetitivo, puede ser mejor evitarla en favor de un enfoque más simple.
+
+Equipo no familiarizado: Si el equipo de desarrollo no está familiarizado con las técnicas de metaprogramación utilizadas, podría generar confusión y dificultar la colaboración.
+
+4. ¿Cuál es el requisito previo más importante antes de comenzar una refactorización?
+
+Antes de comenzar una refactorización, el requisito previo más importante es tener un conjunto sólido de pruebas automatizadas. Las pruebas garantizan que las modificaciones realizadas durante la refactorización no introduzcan errores y que el comportamiento del código se mantenga conforme a las expectativas. Sin un conjunto de pruebas sólido, la refactorización puede volverse arriesgada y propensa a errores, ya que no hay una forma automatizada de verificar que las modificaciones no afecten negativamente al sistema.
