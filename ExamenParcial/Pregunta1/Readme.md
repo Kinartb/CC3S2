@@ -2,7 +2,7 @@ Respuesta 1: comando grep en ruby, ejecutar con `ruby script_grep.rb cadena_a_bu
 
 Respuesta 2: principio abierto-cerrado en ruby, agregar un ejemplo al codigo y ejecutarlo.
 
-```
+```rb
 # Ejemplo de uso de la clase OpenClosed
 
 # Definición de una clase simple
